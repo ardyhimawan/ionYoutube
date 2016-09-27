@@ -10,7 +10,7 @@ import 'rxjs/add/operator/map';
 */
 @Injectable()
 export class Youtube {
-  key = 'AIzaSyDO1Sk4LXK5b2-XMuGGnGzxNbuFDC-ZDOE';
+  key = '';
   constructor(private http: Http) {}
 
   playlist(channel){
